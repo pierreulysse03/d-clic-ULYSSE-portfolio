@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Portfolio - Pierre Malebranche ULYSSE</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+
+<body>
+
+    <!-- ----- HEADER ----- -->
+    <header>
+        <nav>
+            <h2>Pierre ULYSSE</h2>
+            <ul>
+                <li><a href="#hero">Accueil</a></li>
+                <li><a href="#apropos">À propos</a></li>
+                <li><a href="#projets">Projets</a></li>
+                <li><a href="#competences">Compétences</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- ----- HERO ----- -->
+    <section class="hero" id="hero">
+        <div class="text">
+            <h1>Je suis <span>Pierre Malebranche ULYSSE</span>, passionné par le web et la programmation.</h1>
+            <a href="#projets" class="btn">Voir mes projets</a>
+            <a href="cv_pierre.pdf" class="btn" target="_blank">Voir mon CV</a>
+        </div>
+
+        <img src="managetech.png" alt="profil" width="300">
+    </section>
+
+    <!-- ----- À PROPOS ----- -->
+    <section id="apropos" class="apropos">
+        <h2 class="section-title">À propos</h2>
+
+        <div class="apro-content">
+            <div class="text">
+                <p>
+                Je m’appelle Pierre Malebranche ULYSSE, passionné par le contrôle de gestion,
+                l’audit organisationnel ainsi que par le numérique.
+                </p><br>
+                <p>
+                Actuellement, je suis une formation en développement web en parallèle de mes études en gestion,
+                avec l’objectif d’atteindre un niveau avancé et de renforcer mes compétences.
+                </p><br>
+                <p>
+                J’apprécie particulièrement de mettre en pratique mes acquis du web et de la gestion,
+                afin de contribuer de manière utile à mon environnement.
+                </p>
+            </div>
+
+            <img src="profil.jpg" alt="profil">
+        </div>
+    </section>
+
+    <!-- ----- PROJETS ----- -->
+    <section id="projets" class="projets">
+        <h2 class="section-title">Mes Projets</h2>
+
+        <div class="projets-container">
+
+            <div class="projet">
+                <h3>Plateforme Web & Gestion</h3>
+                <p>
+                    Plateforme interactive liant web, programmation et gestion,
+                    pour partager des outils et ressources.
+                </p>
+                <p><b>Tech :</b> HTML, CSS, JS, PHP, MySQL</p>
+                <a href="plateforme.pdf" class="btn" target="_blank">Entrer</a>
+            </div>
+
+            <div class="projet">
+                <h3>Jeu interactif HTML</h3>
+                <p>
+                    Mini-jeu éducatif pour apprendre le HTML de manière simple
+                    et ludique.
+                </p>
+                <p><b>Tech :</b> HTML, CSS, JS, JSON</p>
+                <a href="jeuhtml.pdf" class="btn" target="_blank">Entrer</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ----- COMPÉTENCES ----- -->
+    <section id="competences" class="competences">
+        <h2 class="section-title">Mes Compétences</h2>
+
+        <div class="skills-container">
+
+            <!-- HARD SKILLS -->
+            <div class="skill-box">
+                <h3>Hard Skills</h3>
+                HTML 85%
+                <div class="bar"><div class="progress" style="width:85%"></div></div>
+
+                CSS 74%
+                <div class="bar"><div class="progress" style="width:74%"></div></div>
+
+                JavaScript 70%
+                <div class="bar"><div class="progress" style="width:70%"></div></div>
+
+                VS Code 61%
+                <div class="bar"><div class="progress" style="width:61%"></div></div>
+            </div>
+
+            <!-- SOFT SKILLS -->
+            <div class="skill-box">
+                <h3>Soft Skills</h3>
+                Analyse des performances 70%
+                <div class="bar"><div class="progress" style="width:70%"></div></div>
+
+                Gestion financière 62%
+                <div class="bar"><div class="progress" style="width:62%"></div></div>
+
+                Gestion des données 80%
+                <div class="bar"><div class="progress" style="width:80%"></div></div>
+
+                Communication rédactionnelle 67%
+                <div class="bar"><div class="progress" style="width:67%"></div></div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ----- CONTACT ----- -->
+    <section id="contact" class="contact">
+        <h2 class="section-title" style="color:white;">Contactez-moi</h2>
+
+        <form id="contactForm">
+            <input type="text" id="prenom" placeholder="Votre prénom">
+            <input type="text" id="nom" placeholder="Votre nom">
+            <textarea id="message" rows="6" placeholder="Votre message"></textarea>
+
+            <button type="submit">Envoyer</button>
+            <p class="email">✉️ ulyssepierremalebranche@gmail.com</p>
+        </form>
+    </section>
+
+</body>
+</html>
